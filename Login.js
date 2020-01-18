@@ -25,6 +25,6 @@ export default class Login extends Component {
     wrapper: {
       display: "flex",
       flex: 1,
-      backgroundColor: '#008388'
+      backgroundColor: '#123123'
     }
   });

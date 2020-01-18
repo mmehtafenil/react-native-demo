@@ -14,10 +14,8 @@ class Saved extends Component {
         return (
             <SafeAreaView style={{ flex: 1 }}>
             <View style={styles.container}>
+         
                 
-                <Avatar 
-                size="large"
-                rounded title="X" />
             </View>
 
             <Button
@@ -28,7 +26,7 @@ class Saved extends Component {
                     color="white"
                     />
                 }
-                title="Button with icon component"
+                title="Saved"
             />
             </SafeAreaView>
         );

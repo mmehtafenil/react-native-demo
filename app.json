@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ssip-demo",
-    "slug": "ssip-demo",
+    "name": "ssip-demov2",
+    "slug": "ssip-demov2",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
