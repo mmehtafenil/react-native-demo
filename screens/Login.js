@@ -9,7 +9,7 @@ import {
     SafeAreaView
 } from "react-native";
 
-class Saved extends Component {
+class Login extends Component {
     render() {
         return (
             <SafeAreaView style={{ flex: 1 }}>
@@ -34,7 +34,7 @@ class Saved extends Component {
         );
     }
 }
-export default Saved;
+export default Login;
 
 const styles = StyleSheet.create({
     container: {

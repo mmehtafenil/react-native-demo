@@ -6,20 +6,30 @@ import Explore from './screens/Explore'
 import Saved from './screens/Saved'
 import Inbox from './screens/Inbox'
 import Trips from './screens/Trips'
+import Profile from './screens/Profile'
+import Login from './screens/Login'
 
 
 export default createBottomTabNavigator({
-  Explore: {
-    screen: Explore,
+  Login: {
+    screen: Login,
     navigationOptions: {
-      tabBarLabel: 'EXPLORE',
+      tabBarLabel: 'LOGIN',
       
     }
   },
+
   Saved: {
     screen: Saved,
     navigationOptions: {
       tabBarLabel: 'SAVED',
+      
+    }
+  },
+  Explore: {
+    screen: Explore,
+    navigationOptions: {
+      tabBarLabel: 'EXPLORE',
       
     }
   },
