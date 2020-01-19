@@ -6,6 +6,7 @@ import Explore from './screens/Explore'
 import Saved from './screens/Saved'
 import Inbox from './screens/Inbox'
 import Trips from './screens/Trips'
+import Profile from './screens/Profile'
 
 
 export default createBottomTabNavigator({

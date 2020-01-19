@@ -4,11 +4,13 @@ import {
     Text,
     StyleSheet
 } from "react-native";
+import Explore from  './Explore';
 
 class Profile extends Component {
     render() {
         return (
             <View style={styles.container}>
+                <Explore/>
                 <Text>Profile</Text>
             </View>
         );
